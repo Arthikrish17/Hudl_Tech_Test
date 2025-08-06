@@ -9,13 +9,12 @@ POM is an XML file that contains information about the project and configuration
 Link to the report : To view the report , right click on the cucumber-reports.html reveal in finder and then right click the report and open with Google Chrome or any other supported browser.
 To run the test : 
 Prerequisite :Make the chromeDriver executable on any of the operating system , in my case it's mac so I hvae followed the below steps: 
+Go to the terminal and navigate to the folder hudl-login-tests and run the below command 
 chmod +x chromedriver -First command 
-chmod +x hudl-login-tests/chromedriver -Second Command
 
+Then to the terminal run the below command replace the emaill and pwd with valid credentials.
 
-Go to the terminal and navigate to the folder hudl-login-tests and run the below command replace the emaill and pwd with valid credentials.
-
-Third Command - export HUDL_EMAIL="yourvalidemailaddress@gmail.com" && export HUDL_PASSWORD="yourvalidpassword" && mvn test on the terminal.
+Second Command - export HUDL_EMAIL="yourvalidemailaddress@gmail.com" && export HUDL_PASSWORD="yourvalidpassword" && mvn test on the terminal.
 
 
 <img width="1625" height="917" alt="image" src="https://github.com/user-attachments/assets/851c0159-aeb4-4ede-99c6-7f4805bef03a" />
