@@ -7,8 +7,12 @@ POM - Project Object Model
 Test Pattern - Cucumber BDD (Behaviour Driven Development)
 POM is an XML file that contains information about the project and configuration details used by Maven to build the project.
 Link to the report : To view the report , right click on the cucumber-reports.html reveal in finder and then right click the report and open with Google Chrome or any other supported browser.
+
 To run the test : 
-Prerequisite :Make the chromeDriver executable on any of the operating system , in my case it's mac so I hvae followed the below steps: 
+Install maven if you don't have it on your system - brew install maven 
+And then test using mvn test.
+
+Prerequisite :Make the chromeDriver executable on any of the operating system , in my case it's mac so I have followed the below steps: 
 Go to the terminal and navigate to the folder hudl-login-tests and run the below command 
 chmod +x chromedriver -First command 
 
